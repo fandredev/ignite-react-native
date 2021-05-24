@@ -1,5 +1,5 @@
 
-<h3 align="center">chapter1</h3>
+<h3 align="center">Capitulo 1</h3>
 
 <div align="center">
 
@@ -9,7 +9,9 @@
 
 ---
 <p align="center">
-  <img width=200px height=50% src="https://user-images.githubusercontent.com/49297012/119187371-a5191800-ba4f-11eb-9f90-9f7d4f9b8441.jpeg" alt="Imagem">
+  <img width=200px height=50% src="https://user-images.githubusercontent.com/49297012/119187371-a5191800-ba4f-11eb-9f90-9f7d4f9b8441.jpeg" alt="Primeiro Projeto">
+  <img width=200px height=50% src="https://user-images.githubusercontent.com/49297012/119212280-abc68000-ba8d-11eb-8aa5-3a097d9840d8.jpeg" alt="Desafio 1">
+
 </p>
 
 
@@ -22,7 +24,7 @@
 
 ## 🧐 Sobre <a name = "about"></a>
 
-Aplicativo realizado no primeiro capitulo de fundamentos de React Native da Trilha Ignite da Rocketseat.
+Aplicativos realizados no primeiro capitulo de fundamentos de React Native da Trilha Ignite da Rocketseat.
 
 ### Pré Requisitos
 
@@ -39,10 +41,10 @@ Clone esse repositório
 git clone https://github.com/flubyGit/ignite-rn1.git
 ```
 
-Entre na pasta do projeto
+Entre em alguma das pasta do projeto
 
 ```
-cd ignite-rn1
+cd _NOME_PASTA_
 ```
 
 Instale as dependências necessárias
@@ -58,7 +60,7 @@ sudo npm start
 ## 🚀 Desenvolvimento <a name = "deployment"></a>
 
 - Não se esqueça de utilizar a palavra 'sudo' antes dos comandos de iniciação/instalação do projeto.
-- Reinicie o expo sempre que ocorrer alguma mudança brusca no sistema.
+- Reinicie o expo periodicamente sempre que ocorrer alguma mudança brusca no código (Funções, Hooks).
 
 ## ⛏️ Ferramentas usadas <a name = "built_using"></a>
 
