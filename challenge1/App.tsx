@@ -6,6 +6,8 @@ import {
 import AppLoading from "expo-app-loading";
 import React from "react";
 import { StatusBar } from "react-native";
+import { ThemeProvider } from "styled-components";
+import theme from "./src/global/styles/theme";
 import { Home } from "./src/pages/Home";
 
 export default function App() {
@@ -17,12 +19,10 @@ export default function App() {
 
   return (
     <>
-      <StatusBar
-        backgroundColor="transparent"
-        translucent
-        barStyle="light-content"
-      />
-      <Home />
+      <StatusBar backgroundColor="transparent" animated />
+      <ThemeProvider theme={theme}>
+        <Home />
+      </ThemeProvider>
     </>
   );
 }

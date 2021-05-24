@@ -6,25 +6,16 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
-import colors from "../constants/colors";
-import fonts from "../constants/fonts";
+import colors from "../../constants/colors";
+import { MyTasksListProps } from "./model";
+import { TextHeader } from "./style";
 
 function FlatListHeaderComponent() {
   return (
     <View>
-      <Text style={styles.header}>Minhas tasks</Text>
+      <TextHeader>Minhas tasks</TextHeader>
     </View>
   );
-}
-
-interface MyTasksListProps {
-  tasks: {
-    id: number;
-    title: string;
-    done: boolean;
-  }[];
-  onPress: (id: number) => void;
-  onLongPress: (id: number) => void;
 }
 
 export function MyTasksList({ tasks, onLongPress, onPress }: MyTasksListProps) {
@@ -69,11 +60,6 @@ export function MyTasksList({ tasks, onLongPress, onPress }: MyTasksListProps) {
 }
 
 const styles = StyleSheet.create({
-  header: {
-    color: colors.gray,
-    fontSize: 24,
-    fontFamily: fonts.bold,
-  },
   taskButton: {
     flex: 1,
     paddingHorizontal: 10,
@@ -91,6 +77,13 @@ const styles = StyleSheet.create({
     borderColor: colors.gray,
     marginRight: 10,
   },
+  taskMarkerDone: {
+    height: 16,
+    width: 16,
+    borderRadius: 8,
+    backgroundColor: colors.blue,
+    marginRight: 10,
+  },
   taskText: {
     color: colors.gray,
   },
@@ -103,13 +96,6 @@ const styles = StyleSheet.create({
     backgroundColor: "rgba(25, 61, 223, 0.1)",
     flexDirection: "row",
     alignItems: "center",
-  },
-  taskMarkerDone: {
-    height: 16,
-    width: 16,
-    borderRadius: 8,
-    backgroundColor: colors.blue,
-    marginRight: 10,
   },
   taskTextDone: {
     color: "#A09CB1",

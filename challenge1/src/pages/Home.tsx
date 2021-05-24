@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Alert } from "react-native";
-import { Header } from "../components/Header";
+import { Header } from "../components/Header/Header";
 import { MyTasksList } from "../components/MyTasksList";
-import { TodoInput } from "../components/TodoInput";
+import { TodoInput } from "../components/TodoInput/TodoInput";
 
 interface Task<T = number, U = string, V = boolean> {
   id: T;
