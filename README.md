@@ -1,5 +1,5 @@
 
-<h3 align="center">Capitulo 1</h3>
+<h3 align="center">Apps da trilha</h3>
 
 <div align="center">
 
@@ -24,7 +24,7 @@
 
 ## 🧐 Sobre <a name = "about"></a>
 
-Aplicativos realizados no primeiro capitulo de fundamentos de React Native da Trilha Ignite da Rocketseat.
+Aplicativos realizados com React Native da Trilha Ignite da Rocketseat.
 
 ### Pré Requisitos
 
@@ -61,10 +61,15 @@ sudo npm start
 
 - Não se esqueça de utilizar a palavra 'sudo' antes dos comandos de iniciação/instalação do projeto.
 - Reinicie o expo periodicamente sempre que ocorrer alguma mudança brusca no código (Funções, Hooks).
-
+- 
 ## ⛏️ Ferramentas usadas <a name = "built_using"></a>
 
 - [React Native](https://reactnative.dev/) - Mobile Framework
+- [Styled-Components](https://styled-components.com/) - CSS in JS
+- [React Native Gesture Handler](https://docs.swmansion.com/react-native-gesture-handler/) - Util Buttons Platform
+- [React Navigation](https://reactnavigation.org/) - Control navigation app
+- [React Hook Form](https://react-hook-form.com/) - Control forms app
+- [Yup](https://github.com/jquense/yup) - Control validations forms app
 - [Typescript](https://www.typescriptlang.org/) - Superset Javascript
 - [Expo](https://expo.io/) - Development
 
@@ -74,5 +79,8 @@ sudo npm start
 
 ## 🎉 Conquistas <a name = "acknowledgement"></a>
 
-- Conhecimento maior do Dev Tools / Flipper / LogBox
-- Revisão de Conceitos de React/React Native
+- Conhecimento maior de AsyncStorage
+- Conhecimento maior do Expo e do seu ecossistema
+- Conhecimento maior de validação de formulários utilizando o Yup
+- Conhecimento maior de como utilizar o React Hook Form e sua importância
+- Conhecimento maior de como integrar botões com o React Native Gesture Handler e sua importância.
