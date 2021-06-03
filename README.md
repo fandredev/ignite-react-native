@@ -10,7 +10,8 @@
 ---
 <p align="center">
   <img width=200px height=50% src="https://user-images.githubusercontent.com/49297012/119187371-a5191800-ba4f-11eb-9f90-9f7d4f9b8441.jpeg" alt="Primeiro Projeto">
-  <img width=200px height=50% src="https://user-images.githubusercontent.com/49297012/119212280-abc68000-ba8d-11eb-8aa5-3a097d9840d8.jpeg" alt="Desafio 1">
+  <img width=200px height=50% src="https://user-images.githubusercontent.com/49297012/119212280-abc68000-ba8d-11eb-8aa5-3a097d9840d8.jpeg" alt="Segundo Projeto">
+  <img width=200px height=50% src="https://user-images.githubusercontent.com/49297012/120712164-afe39c00-c496-11eb-9df5-e1b40e0dfcdd.jpeg" alt="Terceiro Projeto">
 
 </p>
 
