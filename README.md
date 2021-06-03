@@ -1,5 +1,5 @@
 
-<h3 align="center">Capitulo 1</h3>
+<h3 align="center">Apps da trilha</h3>
 
 <div align="center">
 
@@ -24,7 +24,7 @@
 
 ## 🧐 Sobre <a name = "about"></a>
 
-Aplicativos realizados no primeiro capitulo de fundamentos de React Native da Trilha Ignite da Rocketseat.
+Aplicativos realizados com React Native da Trilha Ignite da Rocketseat.
 
 ### Pré Requisitos
 
@@ -74,5 +74,8 @@ sudo npm start
 
 ## 🎉 Conquistas <a name = "acknowledgement"></a>
 
-- Conhecimento maior do Dev Tools / Flipper / LogBox
-- Revisão de Conceitos de React/React Native
+- Conhecimento maior de AsyncStorage
+- Conhecimento maior do Expo e do seu ecossistema
+- Conhecimento maior de validação de formulários utilizando o Yup
+- Conhecimento maior de como utilizar o React Hook Form e sua importância
+- Conhecimento maior de como integrar botões com o React Native Gesture Handler e sua importância.
