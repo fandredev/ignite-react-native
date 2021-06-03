@@ -61,10 +61,15 @@ sudo npm start
 
 - Não se esqueça de utilizar a palavra 'sudo' antes dos comandos de iniciação/instalação do projeto.
 - Reinicie o expo periodicamente sempre que ocorrer alguma mudança brusca no código (Funções, Hooks).
-
+- 
 ## ⛏️ Ferramentas usadas <a name = "built_using"></a>
 
 - [React Native](https://reactnative.dev/) - Mobile Framework
+- [Styled-Components](https://styled-components.com/) - CSS in JS
+- [React Native Gesture Handler](https://docs.swmansion.com/react-native-gesture-handler/) - Util Buttons Platform
+- [React Navigation](https://reactnavigation.org/) - Control navigation app
+- [React Hook Form](https://react-hook-form.com/) - Control forms app
+- [Yup](https://github.com/jquense/yup) - Control validations forms app
 - [Typescript](https://www.typescriptlang.org/) - Superset Javascript
 - [Expo](https://expo.io/) - Development
 
